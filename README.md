@@ -70,7 +70,7 @@ $$P_{\text{PINN}} = P_{\text{STC}} \cdot \left( \frac{\text{GHI}}{1000} \right) 
 
 50,000 Monte Carlo weather and spot market price iterations determine portfolio financial yield probability distributions:
 
-$$\text{VaR}_{95\%} = P_{50}(\text{Revenue}) - P_{10}(\text{Revenue})$$
+$$\text{VaR}_{0.95} = P_{50}(\text{Revenue}) - P_{10}(\text{Revenue})$$
 
 ---
 
