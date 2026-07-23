@@ -33,23 +33,23 @@ The system is fully modular and production-ready, featuring **50 implemented ent
 ## 🎨 Enterprise Technical Block Diagrams
 
 ### 1. Overall System Architecture
-![Overall System Architecture](docs/images/system_architecture_diagram.png)
+![Overall System Architecture](docs/images/system_architecture_diagram.png?v=2.0)
 *Figure 1: End-to-end multi-tier pipeline connecting edge telemetry, satellite AI nowcasting, physics ML, battery arbitrage, and security.*
 
 ### 2. Real-Time Edge Telemetry & SCADA Control Loop
-![Edge SCADA BESS Flow](docs/images/edge_scada_bess_flow.png)
+![Edge SCADA BESS Flow](docs/images/edge_scada_bess_flow.png?v=2.0)
 *Figure 2: Edge microinverter telemetry ingestion via Modbus/OPC-UA/MQTT into Apache Kafka with closed-loop SCADA active power control.*
 
 ### 3. Physics-Informed AI & MLOps Pipeline
-![Physics MLOps Pipeline](docs/images/physics_mlops_pipeline.png)
+![Physics MLOps Pipeline](docs/images/physics_mlops_pipeline.png?v=2.0)
 *Figure 3: Physics-Informed Neural Network (PINN) loss layers, Temporal Fusion Transformers, Feast Feature Store, and SHAP explainability.*
 
 ### 4. Drone IR Vision & Computer Vision Asset Health Workflow
-![Asset Health CV Workflow](docs/images/asset_health_cv_workflow.png)
+![Asset Health CV Workflow](docs/images/asset_health_cv_workflow.png?v=2.0)
 *Figure 4: Automated drone radiometric thermal infrared anomaly vision detection, EL cell microcrack classification, and inverter RUL prognostics.*
 
 ### 5. Virtual Power Plant & Financial Risk Engine
-![VPP Financial Risk Architecture](docs/images/vpp_financial_risk_architecture.png)
+![VPP Financial Risk Architecture](docs/images/vpp_financial_risk_architecture.png?v=2.0)
 *Figure 5: Multi-site VPP aggregation, Monte Carlo yield risk simulations, PPA automated billing, and weather derivative hedging.*
 
 ---
