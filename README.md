@@ -38,7 +38,7 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 
 ### 1. Overall System Architecture
 <div align="center">
-  <img src="docs/images/system_architecture_diagram.png" alt="Overall System Architecture" width="750"/>
+  <img src="docs/images/system_architecture_diagram.png" alt="Overall System Architecture" width="800"/>
   <br>
   <i>Figure 1: Digital whiteboard doodle diagram showing end-to-end multi-tier platform architecture.</i>
 </div>
@@ -47,7 +47,7 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 
 ### 2. Real-Time Edge Telemetry & SCADA Control Loop
 <div align="center">
-  <img src="docs/images/edge_scada_bess_flow.png" alt="Edge SCADA BESS Flow" width="750"/>
+  <img src="docs/images/edge_scada_bess_flow.png" alt="Edge SCADA BESS Flow" width="800"/>
   <br>
   <i>Figure 2: Digital whiteboard doodle diagram showing edge telemetry ingestion into Kafka with closed-loop SCADA control.</i>
 </div>
@@ -56,7 +56,7 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 
 ### 3. Physics-Informed AI & MLOps Pipeline
 <div align="center">
-  <img src="docs/images/physics_mlops_pipeline.png" alt="Physics MLOps Pipeline" width="750"/>
+  <img src="docs/images/physics_mlops_pipeline.png" alt="Physics MLOps Pipeline" width="800"/>
   <br>
   <i>Figure 3: Digital whiteboard doodle diagram showing Physics-Informed Neural Network (PINN) loss solver and SHAP explainability.</i>
 </div>
@@ -65,7 +65,7 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 
 ### 4. Drone IR Vision & Computer Vision Asset Health Workflow
 <div align="center">
-  <img src="docs/images/asset_health_cv_workflow.png" alt="Asset Health CV Workflow" width="750"/>
+  <img src="docs/images/asset_health_cv_workflow.png" alt="Asset Health CV Workflow" width="800"/>
   <br>
   <i>Figure 4: Digital whiteboard doodle diagram showing drone radiometric thermal infrared vision and inverter RUL prognostics.</i>
 </div>
@@ -74,7 +74,7 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 
 ### 5. Virtual Power Plant & Financial Risk Engine
 <div align="center">
-  <img src="docs/images/vpp_financial_risk_architecture.png" alt="VPP Financial Risk Architecture" width="750"/>
+  <img src="docs/images/vpp_financial_risk_architecture.png" alt="VPP Financial Risk Architecture" width="800"/>
   <br>
   <i>Figure 5: Digital whiteboard doodle diagram showing multi-site VPP aggregation, Monte Carlo yield risk, and weather derivative hedging.</i>
 </div>
