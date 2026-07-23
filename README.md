@@ -41,6 +41,27 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
   <i>Figure 1: End-to-end multi-tier pipeline connecting edge telemetry, satellite AI nowcasting, physics ML, battery arbitrage, and security.</i>
 </div>
 
+```mermaid
+flowchart LR
+    subgraph Layer1 [1. Edge & Telemetry]
+        A1[Modbus / OPC-UA / MQTT] --> A2[Apache Kafka & Flink Stream]
+    end
+    subgraph Layer2 [2. Weather & GIS AI]
+        B1[GOES-16 Satellite Imagery] --> B2[LiDAR 3D Horizon Raytracer]
+    end
+    subgraph Layer3 [3. Physics-Informed ML]
+        C1[PINN Thermodynamic Loss] --> C2[Temporal Fusion Transformer]
+    end
+    subgraph Layer4 [4. BESS & Arbitrage]
+        D1[Battery SoC Optimizer] --> D2[Day-Ahead Market Arbitrage]
+    end
+    subgraph Layer5 [5. Security & Dashboard]
+        E1[Zero-Trust mTLS Gateway] --> E2[Streamlit & PowerBI Control]
+    end
+
+    Layer1 --> Layer2 --> Layer3 --> Layer4 --> Layer5
+```
+
 ---
 
 ### 2. Real-Time Edge Telemetry & SCADA Control Loop
@@ -49,6 +70,14 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
   <br>
   <i>Figure 2: Edge microinverter telemetry ingestion via Modbus/OPC-UA/MQTT into Apache Kafka with closed-loop SCADA active power control.</i>
 </div>
+
+```mermaid
+flowchart TD
+    S1[Micro-Inverter Sensors] -->|Sub-Second Telemetry| S2[Sub-Second Stream Ingestion]
+    S2 -->|Filter & Windowing| S3[Kalman Filter Drift Check]
+    S3 -->|Healthy Data| S4[SCADA / DERMS Control Loop]
+    S4 -->|Active Power Limit| S5[Grid Ramp Rate Execution]
+```
 
 ---
 
@@ -59,23 +88,40 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
   <i>Figure 3: Physics-Informed Neural Network (PINN) loss solver, Temporal Fusion Transformer (TFT), Feast Feature Store, and SHAP explainability.</i>
 </div>
 
+```mermaid
+flowchart LR
+    M1[Raw Weather & Telemetry] --> M2[Feast Feature Store]
+    M2 --> M3[PINN Thermal Loss Layer]
+    M3 --> M4[Quantile Loss P10/P50/P90]
+    M4 --> M5[TreeSHAP Explainability Engine]
+    M5 --> M6[Shadow Champion-Challenger]
+```
+
 ---
 
 ### 4. Drone IR Vision & Computer Vision Asset Health Workflow
-<div align="center">
-  <img src="docs/images/asset_health_cv_workflow.png" alt="Asset Health CV Workflow" width="850"/>
-  <br>
-  <i>Figure 4: Computer vision asset diagnostics processing aerial radiometric infrared drone imagery and electroluminescence (EL) cell scans.</i>
-</div>
+
+```mermaid
+flowchart TD
+    CV1[Autonomous Drone Radiometric IR] --> CV2[YOLOv8 Thermal Hotspot Detector]
+    CV2 --> CV3[Electroluminescence EL Microcrack AI]
+    CV3 --> CV4[Inverter RUL Prognostics]
+    CV4 --> CV5[Dynamic Panel Washing Scheduler]
+```
+*Figure 4: Automated drone radiometric thermal infrared anomaly vision detection, EL cell microcrack classification, and inverter RUL prognostics.*
 
 ---
 
 ### 5. Virtual Power Plant & Financial Risk Engine
-<div align="center">
-  <img src="docs/images/vpp_financial_risk_architecture.png" alt="VPP Financial Risk Architecture" width="850"/>
-  <br>
-  <i>Figure 5: Multi-site VPP aggregation, 50,000-iteration Monte Carlo yield VaR modeling, and PPA automated billing.</i>
-</div>
+
+```mermaid
+flowchart LR
+    VPP1[Distributed C&I Solar Assets] --> VPP2[Virtual Power Plant Aggregator]
+    VPP2 --> VPP3[50,000-Iteration Monte Carlo Yield VaR]
+    VPP3 --> VPP4[PPA Automated Contract Billing]
+    VPP4 --> VPP5[Weather Derivative Hedge Insurance]
+```
+*Figure 5: Multi-site VPP aggregation, Monte Carlo yield risk simulations, PPA automated billing, and weather derivative hedging.*
 
 ---
 
