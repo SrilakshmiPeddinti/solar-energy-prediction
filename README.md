@@ -67,7 +67,7 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 <div align="center">
   <img src="docs/images/asset_health_cv_workflow.png" alt="Asset Health CV Workflow" width="800"/>
   <br>
-  <i>Figure 4: Digital whiteboard doodle diagram showing drone radiometric thermal infrared vision and inverter RUL prognostics.</i>
+  <i>Figure 4: Digital whiteboard doodle diagram showing drone radiometric thermal infrared vision, EL microcrack AI, and inverter RUL prognostics.</i>
 </div>
 
 ---
