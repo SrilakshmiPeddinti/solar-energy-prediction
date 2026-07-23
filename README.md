@@ -2,7 +2,7 @@
 
 # ☀️ AI-Powered Solar Energy Prediction & Analytics Platform
 
-<img src="docs/images/logo.png" alt="Solar AI Logo" width="650"/>
+<img src="docs/images/logo.png" alt="Solar AI Logo" width="750"/>
 
 ### *Industrial Utility-Scale Clean Energy Intelligence, Physics AI & Grid Management Platform*
 
@@ -38,45 +38,45 @@ The **AI-Powered Solar Energy Prediction & Analytics System** is a production-re
 
 ### 1. Overall System Architecture
 <div align="center">
-  <img src="docs/images/system_architecture_diagram.png" alt="Overall System Architecture" width="750"/>
+  <img src="docs/images/system_architecture_diagram.png" alt="Overall System Architecture" width="800"/>
   <br>
-  <i>Figure 1: End-to-end multi-tier pipeline connecting edge telemetry, satellite AI nowcasting, physics ML, battery arbitrage, and security.</i>
+  <i>Figure 1: Digital whiteboard doodle diagram showing end-to-end multi-tier platform architecture.</i>
 </div>
 
 ---
 
 ### 2. Real-Time Edge Telemetry & SCADA Control Loop
 <div align="center">
-  <img src="docs/images/edge_scada_bess_flow.png" alt="Edge SCADA BESS Flow" width="750"/>
+  <img src="docs/images/edge_scada_bess_flow.png" alt="Edge SCADA BESS Flow" width="800"/>
   <br>
-  <i>Figure 2: Edge microinverter telemetry ingestion via Modbus/OPC-UA/MQTT into Apache Kafka with closed-loop SCADA active power control.</i>
+  <i>Figure 2: Digital whiteboard doodle diagram showing edge telemetry ingestion into Kafka with closed-loop SCADA control.</i>
 </div>
 
 ---
 
 ### 3. Physics-Informed AI & MLOps Pipeline
 <div align="center">
-  <img src="docs/images/physics_mlops_pipeline.png" alt="Physics MLOps Pipeline" width="750"/>
+  <img src="docs/images/physics_mlops_pipeline.png" alt="Physics MLOps Pipeline" width="800"/>
   <br>
-  <i>Figure 3: Physics-Informed Neural Network (PINN) loss solver, Temporal Fusion Transformer (TFT), Feast Feature Store, and SHAP explainability.</i>
+  <i>Figure 3: Digital whiteboard doodle diagram showing Physics-Informed Neural Network (PINN) loss solver and SHAP explainability.</i>
 </div>
 
 ---
 
 ### 4. Drone IR Vision & Computer Vision Asset Health Workflow
 <div align="center">
-  <img src="docs/images/asset_health_cv_workflow.png" alt="Asset Health CV Workflow" width="750"/>
+  <img src="docs/images/asset_health_cv_workflow.png" alt="Asset Health CV Workflow" width="800"/>
   <br>
-  <i>Figure 4: Automated drone radiometric thermal infrared anomaly vision detection, EL cell microcrack classification, and inverter RUL prognostics.</i>
+  <i>Figure 4: Digital whiteboard doodle diagram showing drone radiometric thermal infrared vision and inverter RUL prognostics.</i>
 </div>
 
 ---
 
 ### 5. Virtual Power Plant & Financial Risk Engine
 <div align="center">
-  <img src="docs/images/vpp_financial_risk_architecture.png" alt="VPP Financial Risk Architecture" width="750"/>
+  <img src="docs/images/vpp_financial_risk_architecture.png" alt="VPP Financial Risk Architecture" width="800"/>
   <br>
-  <i>Figure 5: Multi-site VPP aggregation, Monte Carlo yield risk simulations, PPA automated billing, and weather derivative hedging.</i>
+  <i>Figure 5: Digital whiteboard doodle diagram showing multi-site VPP aggregation, Monte Carlo yield risk, and weather derivative hedging.</i>
 </div>
 
 ---
