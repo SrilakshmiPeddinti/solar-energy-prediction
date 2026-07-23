@@ -4,14 +4,13 @@
 
 ### *Industrial Utility-Scale Clean Energy Intelligence, Physics AI & Grid Management Platform*
 
-[![Python CI/CD Pipeline](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/ci.yml)
-[![Security & CodeQL](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/security.yml/badge.svg)](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/security.yml)
+[![CI Pipeline](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/ci.yml)
+[![Security Scan](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/security.yml/badge.svg)](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/security.yml)
 [![Docker Build](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/docker.yml/badge.svg)](https://github.com/SrilakshmiPeddinti/solar-energy-prediction/actions/workflows/docker.yml)
 [![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Architecture: V2.0 Enterprise](https://img.shields.io/badge/Architecture-V2.0%20Enterprise-orange.svg)](50_UPGRADE_FEATURES.md)
 
-[Features Directory](50_UPGRADE_FEATURES.md) • [Python API](#-comprehensive-python-api-reference) • [Architecture Diagrams](#-enterprise-technical-block-diagrams) • [Quick Start](#-installation--quick-start)
+[Features Directory](50_UPGRADE_FEATURES.md) • [Deep Dive Docs](docs/COMPLETE_CODEBASE_ARCHITECTURE_EXPLANATION.md) • [Python API](#-comprehensive-python-api-reference) • [Architecture Diagrams](#-enterprise-technical-block-diagrams)
 
 </div>
 
@@ -183,6 +182,7 @@ solar-energy-prediction/
 ├── requirements.txt              # Production Dependencies
 │
 ├── docs/
+│   ├── COMPLETE_CODEBASE_ARCHITECTURE_EXPLANATION.md # Master 500+ Line Deep-Dive Architecture Guide
 │   └── images/                   # Technical Block Diagrams
 │       ├── system_architecture_diagram.png
 │       ├── edge_scada_bess_flow.png
